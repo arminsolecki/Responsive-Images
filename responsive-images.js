@@ -1,7 +1,8 @@
 /**
  * jQuery Responsive Images
  * @author Armin Solecki
- * Responsive image technique that can be easily implemented into any back-end image processors like "Umbraco ImageGen", "ImageMagik" etc.
+ * Responsive image technique that can be easily implemented 
+ * into any back-end image processors like "Umbraco ImageGen", "ImageMagik" etc.
  **/
 (function($){
     $.responsiveImages = function(el, options){
