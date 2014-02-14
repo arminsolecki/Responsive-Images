@@ -2,7 +2,7 @@
 Responsive image technique that can be easily implemented into any back-end image processors like `Umbraco ImageGen`, `ImageMagik` etc. The only requirement is that back-end image processor API that accepts widths as URL setting.
 
 ##Demo
-[Responsive Images Demo](http://www.arminsolecki.com/demos/Responsive-Images/)
+[Responsive Images Demo](http://arminsolecki.github.io/Responsive-Images/)
 
 ##Sample usage
 ###HTML
