@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Responsive images</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box; 
+            }
+
+            img {
+                max-width: 100%
+            }
+            
+            body,
+            html {
+                margin: 0;
+            }
+
+            .header {
+                background: #ccc;
+                padding: 20px;
+                color: #999;
+                text-align: center;
+                font-size: 20px;
+            }
+            .content {
+                overflow: hidden;
+            }
+            .main,
+            .side {
+                width: 70%;
+                float: left;
+                padding: 20px;
+            }
+            .side {
+                width: 30%;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            Resize browser window and refresh
+        </div>
+		<div class="content">
+            <div class="main">
+                <noscript data-rspimg="http://lorempixel.com/{width}/200/sports/">
+                    <img src="http://lorempixel.com/400/200/city/" alt="Image" />
+                </noscript>
+
+                <noscript data-rspimg="http://placehold.it/{width}x250">
+                    <img src="http://placehold.it/600x250" alt="Image" />
+                </noscript>
+            </div>
+            <div class="side">
+                <noscript data-rspimg="http://lorempixel.com/{width}/200/city/">
+                    <img src="http://lorempixel.com/400/200/city/" alt="Image" />
+                </noscript>
+
+                <noscript data-rspimg="http://placehold.it/{width}x250">
+                    <img src="http://placehold.it/600x250" alt="Image" />
+                </noscript>
+            </div>
+		</div>
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="responsive-images.js"></script>
+        <script src="demo.js"></script>
+    </body>
+</html>
